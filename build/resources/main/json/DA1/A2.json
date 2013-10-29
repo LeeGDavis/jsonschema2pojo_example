@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "id": "A2",
+    "properties" : {
+        "itemId": {"type" : "integer"},
+        "a1": {
+          "javaType": "com.package.test.DA1.DB2.A1",
+          "type": "array",
+          "items":  {"$ref": "DB2/A1.json"}
+        },
+        "b1": {
+          "javaType": "com.package.test.DA1.DB2.B1",
+          "type": "array",
+          "items":  {"$ref": "DB2/B1.json"}
+        }
+    }
+}

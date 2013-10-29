@@ -1,0 +1,11 @@
+{
+    "type": "object",
+    "id": "A1",
+    "properties" : {
+        "itemId": {"type" : "integer"},
+        "b1": {
+          "type": "array",
+          "items":  {"$ref": "B1.json"}
+        }
+    }
+}
